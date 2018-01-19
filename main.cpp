@@ -1,20 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
-int number;
-
-void decimale();
-
 int main() {
-
-	decimale();
-
-	system("pause");
-	return 0;
-}
-
-void decimale() {
+	int number;
 	int resto;
 	const int SIZE = 8;
 	int binario[SIZE];
@@ -39,4 +27,7 @@ void decimale() {
 		cout << binario[i];
 	}
 	cout << endl;
+
+	system("pause");
+	return 0;
 }
